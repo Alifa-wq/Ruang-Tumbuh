@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruang Tumbuh | Belajar dan Berkembang</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f7f0;
+      color: #304b3b;
+      line-height: 1.7;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 7%;
+      background: #fffefa;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .logo {
+      font-size: 23px;
+      font-weight: bold;
+      color: #42634e;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #42634e;
+      margin-left: 15px;
+      font-size: 14px;
+    }
+
+    .hero {
+      padding: 85px 8%;
+      background: linear-gradient(120deg, #e4ebdc, #f5ead9);
+      text-align: center;
+    }
+
+    .hero small {
+      letter-spacing: 3px;
+      color: #71866e;
+      font-weight: bold;
+    }
+
+    .hero h1 {
+      font-size: clamp(35px, 7vw, 58px);
+      line-height: 1.2;
+      margin: 20px 0;
+      color: #355743;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: auto;
+      color: #596b5d;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 13px 27px;
+      background: #54775c;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 65px 8%;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .section-title h2 {
+      font-size: 30px;
+      color: #355743;
+    }
+
+    .section-title p {
+      color: #788579;
+      margin-top: 8px;
+    }
+
+    .about {
+      max-width: 750px;
+      text-align: center;
+      margin: auto;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 18px;
+      box-shadow: 0 5px 20px #304b3b10;
+      border: 1px solid #e9ecdf;
+    }
+
+    .card .emoji {
+      font-size: 35px;
+    }
+
+    .card h3 {
+      margin: 13px 0 8px;
+      color: #42634e;
+    }
+
+    .card p {
+      color: #758176;
+      font-size: 14px;
+    }
+
+    .quote {
+      text-align: center;
+      background: #e5ecdf;
+      color: #42634e;
+      font-size: 21px;
+      font-style: italic;
+    }
+
+    footer {
+      padding: 25px;
+      text-align: center;
+      background: #304b3b;
+      color: white;
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        justify-content: center;
+      }
+
+      nav {
+        text-align: center;
+      }
+
+      nav a {
+        margin: 0 7px;
+      }
+
+      .hero {
+        padding: 65px 7%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">🌱 Ruang Tumbuh</div>
+    <nav>
+      <a href="#beranda">Beranda</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#program">Program</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <small>WELCOME TO RUANG TUMBUH</small>
+      <h1>Setiap Langkah Kecil<br>Adalah Awal Perubahan.</h1>
+      <p>
+        Tempat untuk belajar, mengenal potensi diri,
+        menemukan inspirasi, dan berkembang menjadi
+        versi terbaik dari diri sendiri.
+      </p>
+      <a href="#program" class="btn">Mulai Bertumbuh →</a>
+    </section>
+
+    <section id="tentang">
+      <div class="section-title">
+        <h2>Tentang Ruang Tumbuh</h2>
+        <p>Belajar bukan tentang siapa yang paling cepat.</p>
+      </div>
+      <div class="about">
+        <p>
+          Ruang Tumbuh adalah platform edukasi dan
+          pengembangan diri yang hadir sebagai ruang
+          positif untuk mendapatkan pengetahuan,
+          membangun kebiasaan baik, dan mengembangkan
+          potensi diri secara bertahap.
+        </p>
+      </div>
+    </section>
+
+    <section id="program">
+      <div class="section-title">
+        <h2>Temukan Ruangmu</h2>
+        <p>Mulai perjalanan berkembang dari hal sederhana.</p>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <div class="emoji">📚</div>
+          <h3>Ruang Belajar</h3>
+          <p>Temukan wawasan dan pengetahuan baru untuk memperluas cara pandang.</p>
+        </div>
+
+        <div class="card">
+          <div class="emoji">🌿</div>
+          <h3>Ruang Diri</h3>
+          <p>Kenali potensi, bangun kebiasaan baik, dan tingkatkan kualitas diri.</p>
+        </div>
+
+        <div class="card">
+          <div class="emoji">✨</div>
+          <h3>Ruang Inspirasi</h3>
+          <p>Dapatkan dorongan positif untuk terus melangkah dan mencoba hal baru.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote">
+      "Tidak harus sempurna untuk memulai.
+      Cukup berani untuk terus bertumbuh."
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Ruang Tumbuh. Bertumbuh Bersama, Melangkah Bermakna.
+  </footer>
+
+</body>
+</html>
