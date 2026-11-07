@@ -1,0 +1,298 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruang Belajar | Ruang Tumbuh</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f7f0;
+      color: #304b3b;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 20px 7%;
+      background: #fffefa;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #42634e;
+    }
+
+    header a {
+      color: #42634e;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 75px 8%;
+      background: linear-gradient(120deg, #e4ebdc, #f5ead9);
+    }
+
+    .hero small {
+      letter-spacing: 3px;
+      font-weight: bold;
+      color: #71866e;
+    }
+
+    .hero h1 {
+      font-size: clamp(35px, 7vw, 55px);
+      line-height: 1.2;
+      margin: 18px 0;
+      color: #355743;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: auto;
+      color: #596b5d;
+    }
+
+    section {
+      padding: 55px 8%;
+    }
+
+    .heading {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .heading h2 {
+      font-size: 28px;
+      color: #355743;
+    }
+
+    .heading p {
+      color: #788579;
+      margin-top: 7px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #e9ecdf;
+      border-radius: 18px;
+      padding: 25px;
+      box-shadow: 0 5px 20px #304b3b10;
+    }
+
+    .emoji {
+      font-size: 34px;
+    }
+
+    .card h3 {
+      margin: 12px 0 8px;
+      color: #42634e;
+    }
+
+    .card p {
+      color: #758176;
+      font-size: 14px;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 15px;
+      color: #54775c;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .tips {
+      background: #e5ecdf;
+      border-radius: 18px;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .tips h2 {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      padding: 25px;
+      text-align: center;
+      background: #304b3b;
+      color: white;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">🌱 Ruang Tumbuh</div>
+    <a href="index.html">← Kembali ke Beranda</a>
+  </header>
+
+  <main>
+
+    <div class="hero">
+      <small>RUANG UNTUK MENGETAHUI</small>
+      <h1>Ruang Belajar 📚</h1>
+      <p>
+        Setiap pengetahuan membuka kesempatan baru.
+        Mari belajar, menemukan hal menarik,
+        dan memperluas wawasan bersama Ruang Tumbuh.
+      </p>
+    </div>
+
+    <section>
+      <div class="heading">
+        <h2>Jelajahi Pengetahuan</h2>
+        <p>Pilih topik yang ingin kamu pelajari hari ini.</p>
+      </div>
+
+      <div class="cards">
+
+        <div class="card">
+          <div class="emoji">📖</div>
+          <h3>Tips Belajar Efektif</h3>
+          <p>
+            Temukan cara mengatur waktu, meningkatkan
+            konsentrasi, dan membangun kebiasaan belajar.
+          </p>
+          <a href="#tips">Pelajari →</a>
+        </div>
+
+        <div class="card">
+          <div class="emoji">💡</div>
+          <h3>Pengetahuan Umum</h3>
+          <p>
+            Perluas wawasan melalui informasi baru
+            dan pengetahuan dari berbagai bidang.
+          </p>
+          <a href="#pengetahuan">Jelajahi →</a>
+        </div>
+
+        <div class="card">
+          <div class="emoji">💻</div>
+          <h3>Keterampilan Digital</h3>
+          <p>
+            Kenali keterampilan teknologi yang
+            bermanfaat untuk belajar dan kehidupan.
+          </p>
+          <a href="#digital">Mulai belajar →</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="tips">
+      <div class="heading">
+        <h2>Tips Belajar Efektif</h2>
+        <p>Mulai dari kebiasaan kecil yang bisa dilakukan setiap hari.</p>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <div class="emoji">⏰</div>
+          <h3>Atur Waktu</h3>
+          <p>Buat jadwal belajar sederhana agar kegiatan lebih terarah.</p>
+        </div>
+
+        <div class="card">
+          <div class="emoji">🎯</div>
+          <h3>Tentukan Tujuan</h3>
+          <p>Tetapkan target kecil agar proses belajar lebih terukur.</p>
+        </div>
+
+        <div class="card">
+          <div class="emoji">🌿</div>
+          <h3>Konsisten</h3>
+          <p>Belajar sedikit demi sedikit lebih baik daripada tidak memulai.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pengetahuan">
+      <div class="heading">
+        <h2>Pengetahuan Umum</h2>
+        <p>Hal sederhana yang bisa menambah wawasan.</p>
+      </div>
+
+      <div class="card">
+        <div class="emoji">🧠</div>
+        <h3>Mengapa Kita Perlu Terus Belajar?</h3>
+        <p>
+          Belajar membantu kita memahami perubahan,
+          mengembangkan kemampuan berpikir, serta
+          menemukan solusi ketika menghadapi masalah.
+          Pengetahuan juga membuka sudut pandang baru
+          dalam kehidupan sehari-hari.
+        </p>
+      </div>
+    </section>
+
+    <section id="digital">
+      <div class="heading">
+        <h2>Keterampilan Digital</h2>
+        <p>Kemampuan yang semakin penting di era teknologi.</p>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <div class="emoji">⌨️</div>
+          <h3>Literasi Digital</h3>
+          <p>Belajar menggunakan teknologi dan memahami informasi digital secara bijak.</p>
+        </div>
+
+        <div class="card">
+          <div class="emoji">📊</div>
+          <h3>Pengolahan Data</h3>
+          <p>Mengenal dasar pengolahan data menggunakan aplikasi seperti spreadsheet.</p>
+        </div>
+
+        <div class="card">
+          <div class="emoji">🌐</div>
+          <h3>Internet Positif</h3>
+          <p>Memanfaatkan internet untuk mencari informasi dan mengembangkan kemampuan.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="motivasi">
+      <div class="tips">
+        <h2>🌱 Teruslah Bertumbuh</h2>
+        <p>
+          Tidak perlu mengetahui semuanya hari ini.
+          Satu hal baru yang dipelajari setiap hari
+          adalah langkah kecil menuju masa depan.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 Ruang Tumbuh. Bertumbuh Bersama, Melangkah Bermakna.
+  </footer>
+
+</body>
+</html>
